@@ -1,15 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//Given two binary strings, return their sum (also a binary string).
+//
+//For example,
+//a = "11"
+//b = "1"
+//Return "100".
+
 package Leetcode;
 
 /**
  *
  * @author yingxinxie
  */
-public class addBinary {
+
+public class AddBinary {
 
   public String addBinary(String a, String b) {
     if (a.equals("0")) {
